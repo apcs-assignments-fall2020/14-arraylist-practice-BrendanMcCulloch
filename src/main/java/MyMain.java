@@ -20,7 +20,7 @@ public class MyMain {
     public static boolean checkDuplicates(ArrayList<Integer> list1, ArrayList<Integer> list2) { 
         for (int i = 0; i < list1.size(); i++){
             int listone = list1.get(i);
-            for (int k = 0; k < list2.size(); i++){
+            for (int k = 0; k < list2.size(); k++){
                 int listwo = list2.get(k);
                 if (listone == listwo){
                     return true;
